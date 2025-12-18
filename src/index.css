@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0f1724;
+}
+
+body {
+  @apply bg-gray-50 text-gray-800 font-sans;
+}
+
+a:focus, button:focus {
+  outline: 3px solid theme("colors.primary");
+  outline-offset: 2px;
+}
