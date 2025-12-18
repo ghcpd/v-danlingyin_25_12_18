@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "test_date": "",
+    "spec_file": "input_ui_spec.txt",
+    "agent_model": "vsc-5mini-mix22-arm5-step330"
+  },
+  "scores": {
+    "completeness": 0,
+    "code_quality": 0,
+    "typescript_usage": 0,
+    "tailwind_usage": 0,
+    "responsiveness": 0,
+    "accessibility": 0,
+    "overall_score": 0
+  },
+  "features_implemented": [],
+  "features_missing": [],
+  "files_generated": [],
+  "validation_status": "PENDING",
+  "notes": ""
+}

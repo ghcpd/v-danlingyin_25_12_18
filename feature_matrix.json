@@ -1,0 +1,28 @@
+{
+  "features": [
+    {
+      "id": 1,
+      "name": "Homepage / Discover Page",
+      "required_files": ["src/pages/HomePage.tsx","src/components/Hero.tsx","src/components/PodcastList.tsx","src/components/PodcastCard.tsx"],
+      "implemented": true,
+      "implementation_quality": "basic",
+      "notes": "Responsive grid, hero, categories implemented"
+    },
+    {
+      "id": 2,
+      "name": "Podcast Detail Page",
+      "required_files": ["src/pages/PodcastDetailPage.tsx","src/components/PodcastHeader.tsx","src/components/EpisodeItem.tsx"],
+      "implemented": true,
+      "implementation_quality": "basic",
+      "notes": "Episodes list and play buttons exist"
+    },
+    {
+      "id": 3,
+      "name": "Global Audio Player",
+      "required_files": ["src/components/GlobalAudioPlayer.tsx","src/context/PlayerContext.tsx"],
+      "implemented": true,
+      "implementation_quality": "basic",
+      "notes": "Play/pause/next/prev supported with audio element"
+    }
+  ]
+}
